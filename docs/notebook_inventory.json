@@ -1,0 +1,44 @@
+[
+  {
+    "file": "analysis.ipynb",
+    "sha256": "322e9b22fed6d3e3a650912c26622bf8b551d2fc952f964c58bab1bd0bfc2959",
+    "cells": 28,
+    "code_cells": 27
+  },
+  {
+    "file": "cbmir-experiment-test(1).ipynb",
+    "sha256": "04ae220f86bf44d745230edebe0df74369064d9970162cf4f4f88954d73fd4e5",
+    "cells": 52,
+    "code_cells": 27
+  },
+  {
+    "file": "data-audit(1).ipynb",
+    "sha256": "233d987d95a221478f2f911b2b2e2c134e32b0a50e7667cd1da601a5b1030cb1",
+    "cells": 36,
+    "code_cells": 16
+  },
+  {
+    "file": "data-preprocessing-for-cbmir.ipynb",
+    "sha256": "318bdda22733541848f233a81d1fab2a23126b280706325a9a20a3f8fe0a26d4",
+    "cells": 29,
+    "code_cells": 22
+  },
+  {
+    "file": "embedsupcon.ipynb",
+    "sha256": "543f18ba65f4f79a8260fa82a1d956a333c0b5f067e3c82e12035d33a0499f38",
+    "cells": 17,
+    "code_cells": 17
+  },
+  {
+    "file": "experiment-2.ipynb",
+    "sha256": "b613dbf430572d8a1c707b86db2d46ad5fd3e4d7a14bf4405a55fd26e72c91bb",
+    "cells": 24,
+    "code_cells": 24
+  },
+  {
+    "file": "prepare-final-experiment-results.ipynb",
+    "sha256": "26b1ec3bf11acf4c8693d023bbc37d8238556168578a86202202c0625ea29d8f",
+    "cells": 21,
+    "code_cells": 20
+  }
+]

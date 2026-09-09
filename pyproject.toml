@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cbmir-prevalence"
+version = "0.1.0"
+description = "Controlled chest X-ray retrieval experiments under decreasing gallery prevalence"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24", "pandas>=2.0", "scipy>=1.10", "matplotlib>=3.7", "Pillow>=10", "ImageHash>=4.3", "scikit-learn>=1.3", "tqdm>=4.65"]
+
+[project.optional-dependencies]
+training = ["torch>=2.3", "torchvision>=0.18"]
+notebooks = ["jupyterlab>=4", "nbformat>=5.9"]
+dev = ["pytest>=8", "ruff>=0.9"]
+
+[project.scripts]
+cbmir = "cbmir.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F"]

@@ -1,0 +1,11 @@
+Full synthetic suite:
+14 passed in 13.66s
+
+After final checkpoint/manifest and model-state fingerprint changes:
+python -m pytest -q tests/test_pipeline.py
+1 passed in 10.59s
+
+python -m ruff check src tests
+All checks passed!
+
+All 7 notebook schemas validated and all code cells compiled.
